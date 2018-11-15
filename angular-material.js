@@ -17029,7 +17029,7 @@ MdPanelRef.prototype._createPanel = function() {
         self._restoreScroll = self._$mdUtil.disableScrollAround(
           null,
           self.panelContainer,
-          { disableScrollMask: true }
+          { disableScrollMask: false }
         );
       }
 
